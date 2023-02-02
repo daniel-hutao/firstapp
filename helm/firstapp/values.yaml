@@ -1,0 +1,10 @@
+replicaCount: 1
+
+image:
+  repository: exploitht/firstapp
+  tag: 0.0.1
+  pullPolicy: Always
+
+service:
+  type: ClusterIP
+  port: 8080
